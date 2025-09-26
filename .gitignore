@@ -323,4 +323,4 @@ pyrightconfig.json
 
 .langgraph_api/
 
-./chroma.sqlite3
+./data
