@@ -19,11 +19,7 @@ llm = ChatOpenAI(
 
 def send_email(to: str, subject: str, body: str):
     """Send an email"""
-    email = {
-        "to": to,
-        "subject": subject,
-        "body": body
-    }
+    email = {"to": to, "subject": subject, "body": body}
     # ... email sending logic
     print(email)
 
